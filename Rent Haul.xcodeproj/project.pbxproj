@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE359ECA2162183D006FC3F8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE359EC92162183D006FC3F8 /* LoginViewController.swift */; };
+		DE359ECC21621EC6006FC3F8 /* ForgetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE359ECB21621EC6006FC3F8 /* ForgetPasswordViewController.swift */; };
+		DE359ECE21622771006FC3F8 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE359ECD21622771006FC3F8 /* SignUpViewController.swift */; };
+		DE359ED52162348C006FC3F8 /* LoggedInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE359ED42162348C006FC3F8 /* LoggedInViewController.swift */; };
 		DEDDB2C821620BF70005D97E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDDB2C721620BF70005D97E /* AppDelegate.swift */; };
-		DEDDB2CA21620BF70005D97E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDDB2C921620BF70005D97E /* ViewController.swift */; };
 		DEDDB2CD21620BF70005D97E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEDDB2CB21620BF70005D97E /* Main.storyboard */; };
 		DEDDB2D021620BF70005D97E /* Rent_Haul.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DEDDB2CE21620BF70005D97E /* Rent_Haul.xcdatamodeld */; };
 		DEDDB2D221620BF80005D97E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEDDB2D121620BF80005D97E /* Assets.xcassets */; };
@@ -16,9 +19,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DE359EC92162183D006FC3F8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DE359ECB21621EC6006FC3F8 /* ForgetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordViewController.swift; sourceTree = "<group>"; };
+		DE359ECD21622771006FC3F8 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		DE359ED42162348C006FC3F8 /* LoggedInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedInViewController.swift; sourceTree = "<group>"; };
 		DEDDB2C421620BF70005D97E /* Rent Haul.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rent Haul.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEDDB2C721620BF70005D97E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DEDDB2C921620BF70005D97E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DEDDB2CC21620BF70005D97E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DEDDB2CF21620BF70005D97E /* Rent_Haul.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Rent_Haul.xcdatamodel; sourceTree = "<group>"; };
 		DEDDB2D121620BF80005D97E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -37,6 +43,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DE359ECF21622B69006FC3F8 /* Presentation Layer */ = {
+			isa = PBXGroup;
+			children = (
+				DE359ED121622BD0006FC3F8 /* Xibs & Story Boards */,
+				DE359ED021622B8A006FC3F8 /* Controllers */,
+			);
+			path = "Presentation Layer";
+			sourceTree = "<group>";
+		};
+		DE359ED021622B8A006FC3F8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DE359ECD21622771006FC3F8 /* SignUpViewController.swift */,
+				DE359ECB21621EC6006FC3F8 /* ForgetPasswordViewController.swift */,
+				DE359EC92162183D006FC3F8 /* LoginViewController.swift */,
+				DE359ED42162348C006FC3F8 /* LoggedInViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DE359ED121622BD0006FC3F8 /* Xibs & Story Boards */ = {
+			isa = PBXGroup;
+			children = (
+				DEDDB2CB21620BF70005D97E /* Main.storyboard */,
+				DEDDB2D321620BF80005D97E /* LaunchScreen.storyboard */,
+			);
+			path = "Xibs & Story Boards";
+			sourceTree = "<group>";
+		};
+		DE359ED221622BF9006FC3F8 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				DE359ED321622C1D006FC3F8 /* Application */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		DE359ED321622C1D006FC3F8 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				DEDDB2C721620BF70005D97E /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
 		DEDDB2BB21620BF70005D97E = {
 			isa = PBXGroup;
 			children = (
@@ -56,11 +107,9 @@
 		DEDDB2C621620BF70005D97E /* Rent Haul */ = {
 			isa = PBXGroup;
 			children = (
-				DEDDB2C721620BF70005D97E /* AppDelegate.swift */,
-				DEDDB2C921620BF70005D97E /* ViewController.swift */,
-				DEDDB2CB21620BF70005D97E /* Main.storyboard */,
+				DE359ED221622BF9006FC3F8 /* Common */,
+				DE359ECF21622B69006FC3F8 /* Presentation Layer */,
 				DEDDB2D121620BF80005D97E /* Assets.xcassets */,
-				DEDDB2D321620BF80005D97E /* LaunchScreen.storyboard */,
 				DEDDB2D621620BF80005D97E /* Info.plist */,
 				DEDDB2CE21620BF70005D97E /* Rent_Haul.xcdatamodeld */,
 			);
@@ -138,7 +187,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEDDB2CA21620BF70005D97E /* ViewController.swift in Sources */,
+				DE359ECE21622771006FC3F8 /* SignUpViewController.swift in Sources */,
+				DE359ECA2162183D006FC3F8 /* LoginViewController.swift in Sources */,
+				DE359ECC21621EC6006FC3F8 /* ForgetPasswordViewController.swift in Sources */,
+				DE359ED52162348C006FC3F8 /* LoggedInViewController.swift in Sources */,
 				DEDDB2D021620BF70005D97E /* Rent_Haul.xcdatamodeld in Sources */,
 				DEDDB2C821620BF70005D97E /* AppDelegate.swift in Sources */,
 			);
