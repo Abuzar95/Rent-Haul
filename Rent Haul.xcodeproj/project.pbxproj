@@ -11,6 +11,7 @@
 		DE359ECC21621EC6006FC3F8 /* ForgetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE359ECB21621EC6006FC3F8 /* ForgetPasswordViewController.swift */; };
 		DE359ECE21622771006FC3F8 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE359ECD21622771006FC3F8 /* SignUpViewController.swift */; };
 		DE359ED52162348C006FC3F8 /* LoggedInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE359ED42162348C006FC3F8 /* LoggedInViewController.swift */; };
+		DEC3C587216B536400E75C77 /* RadialGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC3C586216B536400E75C77 /* RadialGradientView.swift */; };
 		DEDDB2C821620BF70005D97E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDDB2C721620BF70005D97E /* AppDelegate.swift */; };
 		DEDDB2CD21620BF70005D97E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEDDB2CB21620BF70005D97E /* Main.storyboard */; };
 		DEDDB2D021620BF70005D97E /* Rent_Haul.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DEDDB2CE21620BF70005D97E /* Rent_Haul.xcdatamodeld */; };
@@ -23,6 +24,7 @@
 		DE359ECB21621EC6006FC3F8 /* ForgetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordViewController.swift; sourceTree = "<group>"; };
 		DE359ECD21622771006FC3F8 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		DE359ED42162348C006FC3F8 /* LoggedInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedInViewController.swift; sourceTree = "<group>"; };
+		DEC3C586216B536400E75C77 /* RadialGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadialGradientView.swift; sourceTree = "<group>"; };
 		DEDDB2C421620BF70005D97E /* Rent Haul.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rent Haul.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEDDB2C721620BF70005D97E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DEDDB2CC21620BF70005D97E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				DEDDB2D121620BF80005D97E /* Assets.xcassets */,
 				DEDDB2D621620BF80005D97E /* Info.plist */,
 				DEDDB2CE21620BF70005D97E /* Rent_Haul.xcdatamodeld */,
+				DEC3C586216B536400E75C77 /* RadialGradientView.swift */,
 			);
 			path = "Rent Haul";
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 				DE359ED52162348C006FC3F8 /* LoggedInViewController.swift in Sources */,
 				DEDDB2D021620BF70005D97E /* Rent_Haul.xcdatamodeld in Sources */,
 				DEDDB2C821620BF70005D97E /* AppDelegate.swift in Sources */,
+				DEC3C587216B536400E75C77 /* RadialGradientView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

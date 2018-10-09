@@ -8,11 +8,27 @@
 
 import UIKit
 
+
 class SignUpViewController: UIViewController {
 
+    
+    var iconClick = true
+    @IBOutlet weak var passwordTextField: UITextField!
+    
+    @IBAction func changeCharacter(_ sender: UIButton) {
+        if(iconClick == true) {
+            passwordTextField.isSecureTextEntry = false
+        } else {
+            passwordTextField.isSecureTextEntry = true
+        }
+        
+        iconClick = !iconClick
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        
+        
         // Do any additional setup after loading the view.
     }
     
